@@ -1,0 +1,20 @@
+categorical: 
+	categorical_train_preprocessed.rds 
+	categorical_test_preprocessed.rds
+	categorical_test_preprocess_info.rds
+OHE zonder mrmr met normalize: 
+	full_norm_one_hot_train_preprocessed.rds
+	full_norm_one_hot_test_preprocessed.rds
+	full_norm_one_hot_test_preprocess_info.rds
+OHE met mrmr met normalize
+	mrmr80_norm_one_hot_train_preprocessed.rds
+	mrmr80_norm_one_hot_test_preprocessed.rds
+	mrmr80_norm_one_hot_test_preprocess_info.rds
+OHE zonder mrmr zonder normalize
+	full_one_hot_train_preprocessed.rds
+	full_one_hot_test_preprocessed.rds
+	full_one_hot_test_preprocess_info.rds
+OHE met mrmr zonder normalize
+	mrmr80_one_hot_train_preprocessed.rds
+	mrmr80_one_hot_test_preprocessed.rds
+	mrmr80_one_hot_test_preprocess_info.rds
